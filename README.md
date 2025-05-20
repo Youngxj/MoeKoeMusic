@@ -117,6 +117,7 @@ docker run -d --name MoeKoeMusic -p 8080:8080 iajue/moekoe-music:latest
 
 复制 https://github.com/iAJue/MoeKoeMusic/blob/main/docker-compose.yml 里面的内容，粘贴到宝塔面板的容器编排里面，点击部署即可，编排名称为MoeKoeMusic
 
+
 > 方式四：本地docker编译
 
 **备注**：该方法可以在docker镜像版本落后时使用
@@ -144,7 +145,6 @@ docker build -t moekoemusic:latest .
 ```
 docker run -d --name MoeKoeMusic -p 8080:8080 moekoemusic:latest
 ```
-
 
 ## ⚙️ 开发
 
